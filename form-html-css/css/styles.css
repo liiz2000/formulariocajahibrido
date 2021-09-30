@@ -1,0 +1,114 @@
+body
+{
+background-color: #C1BDBA;
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.principal
+{
+    background-color: #24323D;
+    width: 45vw;
+    height: 80vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+.contenedorform
+{
+    display: flex;
+    flex-direction: column;
+}
+.botonesform
+{
+    display: flex;
+    flex-direction: row;
+}
+.signUpButton
+{
+    background-color: #1ab188;
+    color: #F7FFFF;
+    width: 400px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+}
+.logInButton
+{
+    background-color: #435259;
+    color: #F7FFFF;
+    width: 400px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+}
+.tituloform
+{
+    color: #F7FFFF;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 35px;
+}
+.form
+{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.input-formu
+{
+    background-color: #24323B;
+    border: 1px solid #7A8891;
+    color:#F7FFFF;
+    width: 250px;
+    height: 50px;
+}
+.formulario1
+{
+    display:grid;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+}
+.input-formu1
+{
+    background-color: #24323B;
+    border: 1px solid #7A8891;
+    color:#F7FFFF;
+    width: 590px;
+    height: 50px;
+}
+.formulario2
+{
+    display:grid;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: center;
+}
+.input-formu2
+{
+    background-color: #24323B;
+    border: 1px solid #7A8891;
+    color:#F7FFFF;
+    width: 590px;
+    height: 50px;
+}
+.button
+{  
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.GetStarted
+{
+    width: 409px;
+    height: 70px;
+    background-color: #1AB188;
+    font-size: 1.5rem;
+    color:#F7FFFF;
+    border:none;
+}
